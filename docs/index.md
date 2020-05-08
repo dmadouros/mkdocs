@@ -24,7 +24,7 @@ cd <project>
 ```
 
 2\. Create `Dockerfile`
-```docker
+```dockerfile
 FROM dmadouros/mkdocs:latest
 
 COPY . /docs
