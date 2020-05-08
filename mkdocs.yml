@@ -1,0 +1,8 @@
+site_name: MkDocs
+copyright: Copyright David Madouros 2020
+extensions:
+  - codehilite
+  - smarty
+  - sane_lists
+theme:
+  name: material

@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  mkdocs:
+    build: .
+    volumes:
+      - ${PWD}:/docs
+    ports:
+      - 8000:8000
