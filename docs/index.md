@@ -23,8 +23,8 @@ mkdocs new <project>
 cd <project>
 ```
 
-2\. Create Dockerfile
-```
+2\. Create `Dockerfile`
+```docker
 FROM dmadouros/mkdocs:latest
 
 COPY . /docs
@@ -34,8 +34,8 @@ ENTRYPOINT ["mkdocs"]
 CMD ["serve", "--dev-addr=0.0.0.0:8000"]
 ```
 
-3\. Create docker-compose.yml
-```
+3\. Create `docker-compose.yml`
+```yaml
 version: "3.7"
 
 services:
