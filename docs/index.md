@@ -49,7 +49,7 @@ services:
 
 4\. Serve site
 
-```
+```bash
 docker-compose up -d
 ```
 
